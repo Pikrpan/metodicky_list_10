@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="heading-container">
+        <h1>Hod kostkami</h1>
+    </div>
+    <div id="resultContainer" class="container result-container">
+        <p class="hidden" id="pResult">Vítej</p>
+    </div>
+
+    <div class="container">
+        <div class="player-div player1">
+            <p id="pPlayer1">Hráč 1</p>
+            <img id="player1Dice" src="./images/dice1.png" alt="">
+        </div>
+        <div class="player-div player2">
+            <p id="pPlayer2">Hráč 2</p>
+            <img id="player2Dice" src="./images/dice1.png" alt="">
+        </div>
+        
+    </div>
+    <div class="container btn-container">
+        <button class="button" id="btnRollDice" onclick="hodKostkami()">Hoď kostkami</button>
+        <button class="button" id="btnRename" onclick="zmenJmenaHracu()">Změň jména hráčů</button>
+    </div>
+    
+
+
+    <footer>Moje jméno</footer>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
